@@ -1,7 +1,7 @@
 const app= require("./src/app")
 
-const batatinha = process.env.DB_PORT
+const port = process.env.DB_PORT;
 
-app.listen(batatinha,() =>
-console.log("ouvindo porta: "+ batatinha)
+app.listen(port,() =>
+console.log("ouvindo porta: "+ port)
 )
